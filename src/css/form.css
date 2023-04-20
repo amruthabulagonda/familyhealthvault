@@ -1,0 +1,36 @@
+.php-email-form {
+    width: 100%;
+  }
+  
+  .form-field {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input[type='text'],
+  input[type='email'],
+  input[type='date'],
+  input[type='file'],
+  textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 5px;
+  }
+  
+  button[type='submit'] {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
